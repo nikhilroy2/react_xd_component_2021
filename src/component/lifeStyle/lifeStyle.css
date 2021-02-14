@@ -1,0 +1,151 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha3/css/bootstrap-grid.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@font-face {
+  font-family: 'trajanPro';
+  src: url("./font/trajanpro-bold.otf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'trajanPro';
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0 2.5rem;
+}
+
+.lifeStyle_wrapper header {
+  color: #707070;
+}
+
+.lifeStyle_wrapper header .company_col {
+  font-size: 57px;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+.lifeStyle_wrapper header .company_col img.logo {
+  width: 66px;
+  height: 56px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lifeStyle_wrapper header .toggler_col {
+  text-align: right;
+}
+
+.lifeStyle_wrapper header .toggler_col .btn-toggler {
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.lifeStyle_wrapper section.section_1 {
+  color: #707070;
+}
+
+.lifeStyle_wrapper section.section_1 h1 {
+  font-size: 87px;
+  font-weight: bold;
+  line-height: 86px;
+}
+
+.lifeStyle_wrapper section.section_1 img {
+  width: 100%;
+}
+
+.lifeStyle_wrapper section.section_1 p {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 46px;
+}
+
+.lifeStyle_wrapper section.section_2 {
+  border-bottom: 2px solid #585858;
+}
+
+.lifeStyle_wrapper section.section_2 img {
+  width: 100%;
+}
+
+.lifeStyle_wrapper section.section_2 h3 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #585858;
+}
+
+.lifeStyle_wrapper section.section_2 h6 {
+  font-size: 19px;
+  line-height: 40px;
+  color: #707070;
+}
+
+.lifeStyle_wrapper section.section_2 .col_bg {
+  background: white url("./img/bg.png") center bottom/contain no-repeat;
+}
+
+.lifeStyle_wrapper section.section_2 .col_bg2 {
+  background: white url("./img/bg_2.png") center bottom/contain no-repeat;
+}
+
+.lifeStyle_wrapper section.section_2 .end_col {
+  height: 230px;
+  background: white url("./img/bg_3.png") center bottom/contain no-repeat;
+  text-align: center;
+  font-size: 98px;
+  line-height: 115px;
+  color: #707070;
+}
+
+.lifeStyle_wrapper section.section_2 .end_col img {
+  width: 123px;
+  height: 115px;
+  display: inline-block;
+}
+
+.lifeStyle_wrapper footer.footer_section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lifeStyle_wrapper footer.footer_section ul li {
+  font-size: 19px;
+  line-height: 62px;
+  color: #707070;
+}
+
+.lifeStyle_wrapper footer.footer_section ul li a {
+  font-size: 16px;
+  line-height: 55px;
+  color: #707070;
+  text-decoration: none;
+}
+
+.lifeStyle_wrapper footer.footer_section p {
+  font-size: 16px;
+  line-height: 55px;
+  color: #707070;
+  text-decoration: none;
+  text-align: center;
+  line-height: 39px;
+}
+
+.lifeStyle_wrapper footer.footer_section p a {
+  font-size: 16px;
+  line-height: 55px;
+  color: #707070;
+  text-decoration: none;
+  display: block;
+}
+/*# sourceMappingURL=lifeStyle.css.map */
